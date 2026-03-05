@@ -19,6 +19,9 @@ class Manager(Tk):
         self.frames = {
             Container: None
         }
+        
+        self.load_frames()
+        self.show_frame(Container)
 
     # functions
     def load_frames(self):

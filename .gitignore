@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos Virtuales (Indispensable)
+venv/
+env/
+ENV/
+.env
+
+# Base de Datos (Para no subir tus datos reales de ventas)
+*.db
+*.sqlite3
+
+# Configuración de Visual Studio Code
+.vscode/
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Reportes o exportaciones temporales
+exports/
+*.pdf
+*.xlsx
